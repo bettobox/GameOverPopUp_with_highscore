@@ -12,9 +12,8 @@ I've developed a `Highscore` component that showcases a list of top scores. The 
 
 Both exercises are created within the context of a React application and are intended to deepen understanding of component-based development and how to utilize props to send data to components.
 
-<img src="https://postimg.cc/jLbQ02vj" alt="Alternativ text" width="400" height="300">
+![image](https://github.com/bettobox/GameOverPopUp_with_highscore/assets/115184165/f321ec80-11d2-47df-9ac8-21ebc12129e0)
 
-![project-img](https://postimg.cc/jLbQ02vj)
 
 How to Use the Repository:
 
