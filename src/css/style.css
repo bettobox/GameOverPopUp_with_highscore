@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&display=swap');
+
+
+body {
+    font-family: 'Comfortaa', cursive;
+}
+/* App.css */
+.game-over-popup {
+    background-color: rgba(77, 74, 74, 0.8);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+
+/*highscore css*/
+
+
+.highscore {
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 10px;
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centrera innehåll horisontellt */
+    height: 50vh; /* Fyll hela sidans höjd */
+    margin-left: 2rem;
+}
+
+.highscore h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.player-score {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.player-score h3 {
+    font-size: 24px;
+    color: #333;
+}
+
+.player-score .score {
+    font-size: 20px;
+    font-weight: bold;
+    color: #007bff;
+}
